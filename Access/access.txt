@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect .php to clean URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Internally rewrite clean URLs to .php files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
+
+ErrorDocument 404 /page-not-found.php
