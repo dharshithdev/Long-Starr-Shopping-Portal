@@ -1,0 +1,3 @@
+function printBill() {
+    window.print();
+}

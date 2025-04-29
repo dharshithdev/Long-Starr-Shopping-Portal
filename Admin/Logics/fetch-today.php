@@ -25,10 +25,16 @@ $query = "
 $result = mysqli_query($conn, $query);
 $orders = [];
 
+if (!$result) {
+    http_response_code(500); // Send proper error code to client
+    echo json_encode(["error" => "Database query failed", "details" => mysqli_error($conn)]);
+    exit;
+}
+
 while($row = mysqli_fetch_assoc($result)) {
     $orders[] = $row;
 }
-
+ 
 header('Content-Type: application/json');
 echo json_encode($orders);
 exit;

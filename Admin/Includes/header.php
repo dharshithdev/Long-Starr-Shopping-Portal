@@ -20,7 +20,7 @@ include("Connections/authorization.php");
 
   <!-- Navigation -->
   <nav class="hidden md:flex items-center gap-6 text-sm text-gray-700">
-    <a href="/dashboard" class="hover:text-blue-600 font-medium">Dashboard</a>
+    <a href="dashboard.php" class="hover:text-blue-600 font-medium">Dashboard</a>
     <a href="../index.php" class="hover:text-blue-600 font-medium">Longstarr</a>
     <a href="settings.php" class="hover:text-blue-600 font-medium">Settings</a>
   </nav>

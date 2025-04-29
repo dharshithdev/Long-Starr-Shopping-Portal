@@ -1,0 +1,71 @@
+    /* Bill Style */
+    .bill-container {
+        width: 600px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      }
+      .bill-container h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th, td {
+        padding: 8px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+      th {
+        background-color: #f5f5f5;
+      }
+      .total-row td {
+        font-weight: bold;
+      }
+      .print-btn {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px;
+        background: #007bff;
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .print-btn:hover {
+        background: #0056b3;
+      }
+  
+      /* Print Styles */
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        .bill-container, .bill-container * {
+          visibility: visible;
+        }
+        .bill-container {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          margin: 0;
+          box-shadow: none;
+          border: none;
+        }
+        .print-btn {
+          display: none;
+        }
+      }

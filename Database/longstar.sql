@@ -4,7 +4,7 @@ CREATE TABLE longstar;
 USE longstar;
 
 CREATE TABLE admin (
-    id INT(11) PRIMARY KEY,
+    id INT(11) PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(255),
     password VARCHAR(255),
     creationDate DATETIME DEFAULT CURRENT_TIMESTAMP()

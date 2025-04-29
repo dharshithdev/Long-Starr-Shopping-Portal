@@ -42,24 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <title>Update Category</title>
     <link href="../Styles/styles.css" rel="stylesheet">
-    <style>
-        .container {
-            display: flex;
-            flex-direction: row;
-        }
-        .sidebar {
-            width: 20%;
-            position: fixed;
-            left: 0;
-            top: 0;
-            height: 100%;
-            background: #f4f4f4;
-        }
-        .content {
-            margin-left: 22%;
-            width: 75%;
-        }
-    </style>
+    <link href="Styles/update-category.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
 

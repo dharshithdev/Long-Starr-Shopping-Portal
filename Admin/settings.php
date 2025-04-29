@@ -62,19 +62,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Main content -->
         <div class="flex-1 p-6 sm:p-10 md:p-12 flex items-start justify-center">
             <div class="w-full max-w-md bg-white shadow-md rounded-xl p-6 sm:p-8 md:p-10 mt-4 space-y-4">
-                <button onclick="" class="w-full py-3 px-4 rounded-md bg-green-600 hover:bg-indigo-700 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">Update Password</button>
-                <button class="w-full py-3 px-4 rounded-md bg-green-600 hover:bg-indigo-700 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">Admin Logs</button>
-                <button class="w-full py-3 px-4 rounded-md bg-red-500 hover:bg-red-600 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2 transition ease-in-out duration-150">Log Out</button>
+                <button onclick="reDirectTo('update-password.php')" class="w-full py-3 px-4 rounded-md bg-green-600 hover:bg-indigo-700 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">Update Password</button>
+                <button onclick="reDirectTo('admin-logs.php')" class="w-full py-3 px-4 rounded-md bg-green-600 hover:bg-indigo-700 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">Admin Logs</button>
+                <button onclick="reDirectTo('Logics/log-out.php')" class="w-full py-3 px-4 rounded-md bg-red-500 hover:bg-red-600 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2 transition ease-in-out duration-150">Log Out</button>
              </div>
         </div>
     </div>
 
     <?php include("Includes/footer.php"); ?>
 </body>
-<script>
-    function reDirectTo () {
-        window.location.href = ""
-    }
-</script>
+<script defer src="Scripts/settings.js"></script>
 </html>
 <?php include("Includes/footer.php"); ?>

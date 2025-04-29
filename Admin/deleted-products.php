@@ -11,24 +11,8 @@ include("Connections/authorization.php");
     <meta charset="UTF-8">
     <title>Deleted Products</title>
     <link href="../Styles/styles.css" rel="stylesheet">
-    <style>
-        .container {
-            display: flex;
-            flex-direction: row;
-        }
-        .sidebar {
-            width: 20%;
-            position: fixed;
-            left: 0;
-            top: 0;
-            height: 100%;
-            background: #f4f4f4;
-        }
-        .content {
-            margin-left: 22%;
-            width: 75%;
-        }
-    </style>
+    <link href="Styles/deleted-products.css" rel="stylesheet">
+
 </head>
 <body class="bg-gray-100">
 

@@ -1,7 +1,7 @@
 <aside class="w-64 bg-white h-screen shadow-md border-r px-4 py-6">
   <nav class="space-y-2 text-gray-800 text-sm font-medium">
     <!-- Dashboard -->
-    <a href="/dashboard" class="block px-3 py-2 rounded hover:bg-gray-100">
+    <a href="dashboard.php" class="block px-3 py-2 rounded hover:bg-gray-100">
       Dashboard
     </a>
 
