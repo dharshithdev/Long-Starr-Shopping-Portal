@@ -12,6 +12,7 @@ include("Connections/authorization.php");
     <title>User Logs</title>
     <link href="../Styles/styles.css" rel="stylesheet">
     <link href="Styles/user-log-data.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-gray-100">
 

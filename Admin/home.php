@@ -7,5 +7,6 @@ include("Includes/footer.php");
 <html>
     <head>
         <title>Admin Panel</title>
+        <link rel="icon" type="image/png" href="Assets/icon.png">
     </head>
 </html>    

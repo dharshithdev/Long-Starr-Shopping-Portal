@@ -41,6 +41,7 @@ $track_info = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM trackorder W
   <title>Order Details</title>
   <link rel="stylesheet" href="../../Styles/styles.css">
   <link rel="stylesheet" href="Styles/get-print.css">
+  <link rel="icon" type="image/png" href="Assets/icon.png">
 
 
 </head>

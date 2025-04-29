@@ -12,6 +12,7 @@ include("Connections/authorization.php");
     <title>Deleted Products</title>
     <link href="../Styles/styles.css" rel="stylesheet">
     <link href="Styles/deleted-products.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
 
 </head>
 <body class="bg-gray-100">

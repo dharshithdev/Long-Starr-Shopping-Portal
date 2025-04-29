@@ -11,6 +11,7 @@ include("Connections/authorization.php");
     <meta charset="UTF-8">
     <title>All Users</title>
     <link href="../Styles/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
     <link href="Styles/total-users.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">

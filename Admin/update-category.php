@@ -43,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Update Category</title>
     <link href="../Styles/styles.css" rel="stylesheet">
     <link href="Styles/update-category.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-gray-100">
 

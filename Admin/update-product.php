@@ -59,6 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Update Product</title>
     <link href="../Styles/styles.css" rel="stylesheet">
     <link href="Styles/update-product.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-gray-100">
 

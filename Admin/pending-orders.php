@@ -14,6 +14,7 @@ $offset = isset($_GET['offset']) ? intval($_GET['offset']) : 0;
     <meta charset="UTF-8">
     <title>Total Orders</title>
     <script src="Scripts/axios.min.js"></script>
+    <link rel="icon" type="image/png" href="Assets/icon.png">
     <link href="../Styles/styles.css" rel="stylesheet">
     <style>
         .container {

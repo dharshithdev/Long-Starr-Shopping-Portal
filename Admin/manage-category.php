@@ -10,6 +10,7 @@ include("Connections/authorization.php");
     <meta charset="UTF-8">
     <title>Manage Categories</title>
     <link href="../Styles/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
     <link href="Styles/manage-category.css" rel="stylesheet">
 
 </head>

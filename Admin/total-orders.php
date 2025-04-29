@@ -17,6 +17,7 @@ $offset = isset($_GET['offset']) ? intval($_GET['offset']) : 0;
     <script src="Scripts/axios.min.js"></script>
     <link href="../Styles/styles.css" rel="stylesheet">
     <link href="Styles/total-orders.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-gray-100">
 

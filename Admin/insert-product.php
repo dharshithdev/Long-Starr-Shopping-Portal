@@ -82,6 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta charset="UTF-8">
   <title>Insert Products</title>
    <link rel="stylesheet" href="../Styles/styles.css">
+   <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-gray-100">
 
