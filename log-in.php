@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <title>Log In - Longstar</title>
   <link rel="icon" href="Assets/logo.ico" type="image/x-icon" />
   <link rel="stylesheet" href="Styles/styles.css">
+  <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-white min-h-screen flex items-center justify-center">
 

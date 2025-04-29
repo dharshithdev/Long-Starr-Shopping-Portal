@@ -56,6 +56,7 @@ $total = $product['price'] * $quantity;
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confirm Order</title>
   <link rel="stylesheet" href="Styles/styles.css">
+  <link rel="icon" type="image/png" href="Assets/icon.png">
 </head>
 <body class="bg-gray-100">
   <div class="max-w-6xl mx-auto px-2 sm:px-4 py-6">

@@ -19,6 +19,7 @@ $result = $stmt->get_result();
     <meta charset="UTF-8">
     <title>Your Wishlist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
     <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <body class="bg-gray-100">

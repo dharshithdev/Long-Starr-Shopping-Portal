@@ -56,6 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sign Up - Longstar</title>
   <link rel="icon" href="Assets/logo.jpeg" type="image/x-icon" />
+  <link rel="icon" type="image/png" href="Assets/icon.png">
   <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <body class="bg-white min-h-screen flex items-center justify-center">

@@ -40,6 +40,7 @@ if (!$productId || !is_numeric($productId)) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confirm Order</title>
+  <link rel="icon" type="image/png" href="Assets/icon.png">
   <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <body class="bg-gray-100 h-full flex flex-col">

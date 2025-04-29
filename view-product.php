@@ -34,6 +34,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
   <meta charset="UTF-8">
   <title><?php echo $productFound ? htmlspecialchars($productName) . ' | Product View' : 'No Product Found'; ?></title>
   <link rel="stylesheet" href="Styles/styles.css">
+  <link rel="icon" type="image/png" href="Assets/icon.png">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-gray-100 h-full flex flex-col">

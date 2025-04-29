@@ -7,6 +7,7 @@
   <meta charset="UTF-8">
   <title>404 Not Found</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Assets/icon.png">
   <link rel="stylesheet" href="Styles/Styles.css">
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
