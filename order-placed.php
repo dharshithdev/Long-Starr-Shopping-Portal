@@ -18,8 +18,8 @@ include("Connections/authorization.php");
     <div class="checkmark-circle">
       <div class="checkmark"></div>
     </div>
-    <h1>Payment Successful!</h1>
-    <p>Thank you for your choosing us. Order Placed Successfully.</p>
+    <h1>Order Placed!</h1>
+    <p>Thank you for your choosing us.</p>
   </div>
   <script src="Scripts/go-to-view-order.js"></script>
 </body>

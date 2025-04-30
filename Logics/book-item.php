@@ -34,5 +34,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['userId']) && isset($_P
     $stmt->execute();
 }
 
-header("Location: ../view-orders.php")
+if($mode == "cod") {
+    header("Location: ../order-placed.php");
+} elseif ($mode == "online") {
+    header("Location: ../success.php");
+}
 ?>

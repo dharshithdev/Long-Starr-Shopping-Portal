@@ -81,8 +81,8 @@ $total = $product['price'] * $quantity;
         <div class="mb-4 text-sm sm:text-base">
           <h3 class="text-lg font-semibold mb-2">Payment Mode</h3>
           <label class="block mb-1"><input type="radio" name="payMode" value="cod" checked> Cash On Delivery</label>
+          <label class="block mb-4 text-gray-400"><input type="radio" name="payMode" value="online">Online Payments</label>
           <label class="block mb-1 text-gray-400"><input type="radio" name="payMode" value="card" disabled> Card Payment</label>
-          <label class="block mb-4 text-gray-400"><input type="radio" name="payMode" value="upi" disabled> UPI Payment</label>
           <p class="text-gray-600 text-sm"><strong>NOTE:</strong> Cash On Delivery is the only available option at the moment.</p>
         </div>
 
@@ -111,7 +111,6 @@ $total = $product['price'] * $quantity;
       </div>
     </div>
   </form>
-
   <script src="/longstarr/Scripts/payment.js"></script>
 </body>
 </html>
